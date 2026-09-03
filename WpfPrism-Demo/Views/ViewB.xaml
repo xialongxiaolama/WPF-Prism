@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="WpfPrism_Demo.Views.ViewB"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfPrism_Demo.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Style="{StaticResource Title}">ViewB-导航参数 &amp; 导航记录 &amp; 页面生命周期</TextBlock>
+        <TextBlock Style="{StaticResource Subtitle}">练习NavigationParameters传参、INavigationAware生命周期、Journal 日志</TextBlock>
+
+        <TextBlock>从导航参数收到的message:</TextBlock>
+        <TextBlock Text="{Binding ReceiveMessage}" Foreground="#ca416e" Margin="0,10">
+        </TextBlock>
+
+        <TextBlock>INavigationAware 生命周期日志: </TextBlock>
+
+        <ScrollViewer Height="200">
+            <TextBlock Text="{Binding LifeCycleLog}" TextWrapping="Wrap" Foreground="LightGray"/>
+        </ScrollViewer>
+
+        <WrapPanel Margin="0,10">
+            <Button Command="{Binding GoBackCommand}">返回上一个页面</Button>
+            <Button Command="{Binding GoForwardCommand}">前进到下一个页面</Button>
+        </WrapPanel>
+        <StackPanel Margin="0,10">
+            <!--<Button Command="{Binding ToggleReuseCommand}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Content" Value="切换页面复用状态"></Setter>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsNavigationStatus}" Value="true">
+                                <Setter Property="Content" Value="页面复用"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsNavigationStatus}" Value="false">
+                                <Setter Property="Content" Value="页面不复用"></Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>-->
+            <CheckBox Content="页面实例复用" IsChecked="{Binding IsNavigationStatus, Mode=TwoWay}"/>
+            <TextBlock Style="{StaticResource Subtitle}">提示: 启用页面实例复用后, 每次进入页面日志追加; 关闭后每次重新创建</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="0,10">
+            <CheckBox Content="缓存实例" IsChecked="{Binding KeepAliveStatus, Mode=TwoWay}"/>
+            <TextBlock Style="{StaticResource Subtitle}">提示: 开启实例缓存, 页面离开不销毁; 关闭实例缓存后, 页面离开时会被销毁, 再次进入创建新的</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

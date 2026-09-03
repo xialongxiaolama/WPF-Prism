@@ -1,0 +1,492 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\wpfprism-demo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\wpfprism-demo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\moduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\moduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\navitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\navitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\moduleitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\moduleitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\views\\module.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\views\\module.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\viewmodels\\viewbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\viewmodels\\viewbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\63fe1b7105afafd3b72b4e963617a8514b0b0f9ae4a25f5dd7ba895ea0b3d1f0\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\modulea.plugin\\moduleamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|solutionrelative:modulea.plugin\\moduleamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\wpfprism-demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\wpfprism-demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\views\\viewb.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\views\\viewb.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\modulea.plugin\\viewmodels\\pageaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|solutionrelative:modulea.plugin\\viewmodels\\pageaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\modulea.plugin\\views\\pagea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|solutionrelative:modulea.plugin\\views\\pagea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\modulea.plugin\\views\\pagea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6920C4-B443-4F68-B5D8-ECEFB3382444}|ModuleA.Plugin\\ModuleA.Plugin.csproj|solutionrelative:modulea.plugin\\views\\pagea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB.Plugin\\ModuleBModules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB.Plugin\\ModuleBModules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|d:\\.test\\c#\\wpf\\wpfprism-demo\\wpfprism-demo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F19C29-39A1-4EA0-8A5B-7CFDC7456CE4}|WpfPrism-Demo\\WpfPrism-Demo.csproj|solutionrelative:wpfprism-demo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB\\Views\\PageA.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB\\Views\\PageA.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleBModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB\\ModuleBModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ViewModels\\PageAViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB\\ViewModels\\PageAViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleB.Plugin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModuleB\\ModuleB.Plugin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 439,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WpfPrism-Demo",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "RelativeToolTip": "WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-03T03:38:40.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuleViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ModuleViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\ModuleViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ModuleViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\ModuleViewModel.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:24:39.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\App.xaml.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\App.xaml.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\App.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwC4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:32:44.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv30AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:47:36.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PageA.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml",
+              "RelativeDocumentMoniker": "ModuleB\\Views\\PageA.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml",
+              "RelativeToolTip": "ModuleB\\Views\\PageA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-03T01:18:30.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PageA.xaml.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml.cs",
+              "RelativeDocumentMoniker": "ModuleB\\Views\\PageA.xaml.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\Views\\PageA.xaml.cs",
+              "RelativeToolTip": "ModuleB\\Views\\PageA.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:18:57.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-02T11:47:49.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModuleItemViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ModuleItemViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\ModuleItemViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ModuleItemViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\ModuleItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T02:19:06.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavItemViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\NavItemViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\NavItemViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\NavItemViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\NavItemViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvywAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T02:17:15.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModuleBModule.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleBModule.cs",
+              "RelativeDocumentMoniker": "ModuleB\\ModuleBModule.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleBModule.cs",
+              "RelativeToolTip": "ModuleB\\ModuleBModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:19:42.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Module.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\Module.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\Views\\Module.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\Module.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\Views\\Module.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-03T01:35:14.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewAViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ViewAViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\ViewAViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ViewAViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\ViewAViewModel.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwFwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:49:51.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewBViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ViewBViewModel.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\ViewModels\\ViewBViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\ViewModels\\ViewBViewModel.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\ViewModels\\ViewBViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwFAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:50:07.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\63fe1b7105afafd3b72b4e963617a8514b0b0f9ae4a25f5dd7ba895ea0b3d1f0\\Page.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\63fe1b7105afafd3b72b4e963617a8514b0b0f9ae4a25f5dd7ba895ea0b3d1f0\\Page.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAUwOEBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T01:18:19.314Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\ViewA.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\Views\\ViewA.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\ViewA.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\Views\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-03T00:47:02.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\Views\\HomeView.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\HomeView.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-03T00:46:53.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PageA.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\Views\\PageA.xaml",
+              "RelativeDocumentMoniker": "ModuleA.Plugin\\Views\\PageA.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\Views\\PageA.xaml",
+              "RelativeToolTip": "ModuleA.Plugin\\Views\\PageA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-02T11:24:41.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PageAViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ViewModels\\PageAViewModel.cs",
+              "RelativeDocumentMoniker": "ModuleB\\ViewModels\\PageAViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ViewModels\\PageAViewModel.cs",
+              "RelativeToolTip": "ModuleB\\ViewModels\\PageAViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:23:42.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModuleAModule.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\ModuleAModule.cs",
+              "RelativeDocumentMoniker": "ModuleA.Plugin\\ModuleAModule.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\ModuleAModule.cs",
+              "RelativeToolTip": "ModuleA.Plugin\\ModuleAModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T08:33:59.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\App.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\App.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\App.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-02T08:32:25.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WpfPrism-Demo.csproj",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "RelativeToolTip": "WpfPrism-Demo\\WpfPrism-Demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T14:19:30.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewB.xaml",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\ViewB.xaml",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\Views\\ViewB.xaml",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\Views\\ViewB.xaml",
+              "RelativeToolTip": "WpfPrism-Demo\\Views\\ViewB.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-03T00:47:21.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ModuleB.Plugin.csproj",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleB.Plugin.csproj",
+              "RelativeDocumentMoniker": "ModuleB\\ModuleB.Plugin.csproj",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB\\ModuleB.Plugin.csproj",
+              "RelativeToolTip": "ModuleB\\ModuleB.Plugin.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T11:22:48.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAgwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-02T14:28:02.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageAViewModel.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\ViewModels\\PageAViewModel.cs",
+              "RelativeDocumentMoniker": "ModuleA.Plugin\\ViewModels\\PageAViewModel.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\ViewModels\\PageAViewModel.cs",
+              "RelativeToolTip": "ModuleA.Plugin\\ViewModels\\PageAViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:24:43.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.317\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwFoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-02T14:27:59.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PageA.xaml.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\Views\\PageA.xaml.cs",
+              "RelativeDocumentMoniker": "ModuleA.Plugin\\Views\\PageA.xaml.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleA.Plugin\\Views\\PageA.xaml.cs",
+              "RelativeToolTip": "ModuleA.Plugin\\Views\\PageA.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:54:08.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ModuleBModules.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB.Plugin\\ModuleBModules.cs",
+              "RelativeDocumentMoniker": "ModuleB.Plugin\\ModuleBModules.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\ModuleB.Plugin\\ModuleBModules.cs",
+              "RelativeToolTip": "ModuleB.Plugin\\ModuleBModules.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T09:34:53.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfPrism-Demo\\AssemblyInfo.cs",
+              "ToolTip": "D:\\.Test\\C#\\WPF\\WpfPrism-Demo\\WpfPrism-Demo\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfPrism-Demo\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T09:23:42.231Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 115,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 192,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

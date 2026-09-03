@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="ModuleB.Views.PageA"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ModuleB"
+      >
+
+    <StackPanel Background="AliceBlue">
+        <TextBlock>模块信息 -- ModulesB</TextBlock>
+        <TextBlock>通过 Prism 的 Module 实现的模块自动导入</TextBlock>
+        <TextBlock Text="{Binding HelloMessage}"></TextBlock>
+    </StackPanel>
+</UserControl>

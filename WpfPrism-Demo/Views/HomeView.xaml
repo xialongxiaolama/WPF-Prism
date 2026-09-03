@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WpfPrism_Demo.Views.HomeView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:prism="http://prismlibrary.com/"
+      >
+
+    <Border>
+        <StackPanel Background="White">
+            <TextBlock Style="{StaticResource Title}">Home——首页</TextBlock>
+            <TextBlock Style="{StaticResource Subtitle}">演示：依赖注入（DI）+ 事件聚合器发布（EventAggregator.Publish）</TextBlock>
+            <Border BorderBrush="Gray" Margin="0,10" Padding="10">
+                <TextBlock Text="{Binding HomeReceivedMessage}" TextWrapping="Wrap" FontSize="14">你好, Prism, 这条消息不是写死在界面上的, 而是由容器注入的MessageService提供, 就是依赖注入的意义:界面值依赖接口.</TextBlock>
+            </Border>
+            <Separator Margin="0,0,0,20"></Separator>
+            <TextBlock>在下面输入内容并发送, 然后切换到左侧的[ViewB]看到接受的事件:</TextBlock>
+
+            <WrapPanel Margin="0 ,10">
+                <!-- Binding 相当于v-bind 双向互数据绑定 , ViewModel 层必须实现属性的INotify-->
+                <!-- UpdateSourceTrigger 触发的时机, 失去焦点/ 修改完毕, 相当于v-on.-->
+                <TextBox Width="200" Text="{Binding HomeSendMessage, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <Button Margin="10,0" Command="{Binding PublishImportantCommand}">发送[重要](Severity=2)</Button>
+                <Button Command="{Binding PublishNormalCommand}">发送[普通](Severity=0)</Button>
+            </WrapPanel>
+            <TextBlock Style="{StaticResource Subtitle}">ViewB 只接收 Severity >0 的消息, 普通消息会过滤</TextBlock>
+        </StackPanel>
+    </Border>
+</UserControl>

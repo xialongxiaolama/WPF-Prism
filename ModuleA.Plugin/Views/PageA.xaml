@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ModuleA.Plugin.Views.PageA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModuleA.Plugin.Views">
+    
+    <StackPanel>
+        <TextBlock Text="{Binding HelloMessage}" FontSize="20" Foreground="Black"></TextBlock>
+        <Separator Margin="0,20"></Separator>
+        <TextBlock TextWrapping="Wrap" LineHeight="24">模块化的好处: 
+            <LineBreak></LineBreak>
+            <Run>1.业务解耦: 每个项目独立, 可以引用自己的 服务,ViewModel, 减少模块之间的互相引用 </Run>
+            <LineBreak></LineBreak>
+            <Run>2.按需加载 OnDemand, 软件启动时不加载模块, 等点击时再调用 IModuleManager.LoadModule("xxx"), 加载dll, 注册页面服务</Run>
+            <LineBreak></LineBreak>
+            <Run>3.团队间分工合作, 并行开发, 互不干扰 </Run>
+            <LineBreak></LineBreak>
+            <Run>4.独立的生命周期 </Run>
+            <LineBreak></LineBreak>
+            <Run>5.共享的 DI 容器, 模块内部注册的页面, 主程序可以直接通过名称导航到页面</Run>
+        </TextBlock>
+    </StackPanel>
+</UserControl>

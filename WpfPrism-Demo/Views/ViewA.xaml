@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="WpfPrism_Demo.Views.ViewA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfPrism_Demo.Views"
+             mc:Ignorable="d" 
+             xmlns:prism="http://prismlibrary.com/"
+             >
+    <StackPanel Background="White">
+        <TextBlock Style="{StaticResource Title}">ViewA - 事件聚合器订阅</TextBlock>
+        <TextBlock Style="{StaticResource Subtitle}">演示：Subscribe / ThreadOption / Predicate过滤 / 退订</TextBlock>
+
+        <TextBlock Text="{Binding SubscribeStatus}" Foreground="#2992d1" Margin="0, 20"></TextBlock>
+        <Border BorderBrush="#CCC" BorderThickness="1" Padding="4" Height="180">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <!--
+                    ItemsControl 是基础列表控件, 是ListBox ListView Combox 的父基类
+                    ItemsControl.ItemTemplate 自定义每一项的显示样式, 绑定到 ViewModel 的 MessageContent 属性, 该属性是一个集合
+                -->
+                <ItemsControl ItemsSource="{Binding MessageContent}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="0,2" FontSize="13"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Border>
+        <WrapPanel Margin="0,10">
+            <Button Command="{Binding PublishCommand}">发布消息</Button>
+            <Button Command="{Binding ToggleSubscribeCommand}">退订 / 重新订阅</Button>
+            <Button Command="{Binding GoToViewBCommand}">跳转 ViewB 并携带参数</Button>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>

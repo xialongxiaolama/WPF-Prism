@@ -1,0 +1,16 @@
+﻿<prism:PrismApplication x:Class="WpfPrism_Demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfPrism_Demo"
+             xmlns:prism="http://prismlibrary.com/"
+             >
+    <Application.Resources>
+        <!--引入公共样式-->
+        <ResourceDictionary>
+            <!--合并资源字典, 将样式合并到应用程序中-->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/CommonStyle.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>
