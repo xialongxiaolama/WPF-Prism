@@ -1,0 +1,12 @@
+# .NET
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.cache
+.vs/
+
+# 拷贝到主程序目录下的插件编译产物
+WpfPrism-Demo/Modules/
