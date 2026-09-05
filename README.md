@@ -1,7 +1,6 @@
-# WPF Prism 8 学习 Demo — 按页面知识点详解
+# WPF Prism 8 Demo 
 
-> 项目基于 **Prism 8 + DryIoc + .NET 8 (WPF)**，涵盖 Prism 核心六大能力：**依赖注入、区域导航、事件聚合器、对话框服务、模块化、MVVM 生命周期**。
->
+> 项目基于 **Prism 8 + DryIoc + .NET 8 (WPF)**，涵盖 Prism 核心六大能力：**可拔插模块、依赖注入、区域导航、事件聚合器、对话框服务、MVVM 生命周期**。
 
 ---
 
@@ -69,9 +68,9 @@ OnStartup → Initialize
 OnInitialized()                 启动完成，可做初始化导航
 ```
 
-### 1.2 关键代码解析
+### 1.2 加载模块
 
-**① 创建模块目录 — 两种方式对比**
+**① 创建模块目录
 
 ```csharp
 protected override IModuleCatalog CreateModuleCatalog()
@@ -88,7 +87,8 @@ protected override IModuleCatalog CreateModuleCatalog()
 }
 ```
 
-> 本项目同时使用了两种方式：ModuleA 通过 `ConfigureModuleCatalog` 手动注册，ModuleB 通过 `DirectoryModuleCatalog` 扫描 `bin/Debug/net8.0-windows/Modules/` 目录自动发现。
+> 两种方式：ModuleA 通过 `ConfigureModuleCatalog` 手动注册
+> ModuleB 通过 `DirectoryModuleCatalog` 扫描 `/Modules/` 目录自动发现。
 
 **② 注册类型 — RegisterTypes**
 
@@ -185,8 +185,6 @@ XAML 中通过附加属性定义导航区域：
 </ItemsControl>
 ```
 
-**好处：** 模块加载后只需向集合 `Add` 一个 `NavItemViewModel`，UI 自动出现导航按钮，无需操作 UI 线程。
-
 ### 2.3 静态 + 动态导航项
 
 `MainWindowViewModel` 中：
@@ -202,47 +200,7 @@ _eventAggregator.GetEvent<ModuleLoadedEvent>().Subscribe(OnModuleLoaded);
 _eventAggregator.GetEvent<ModuleUnloadedEvent>().Subscribe(OnModuleUnloaded);
 ```
 
-`NavItemViewModel` 关键字段：
 
-| 字段 | 说明 |
-|---|---|
-| `DisplayName` | 按钮显示文字 |
-| `ViewName` | 导航目标视图注册名 |
-| `IsDynamic` | 是否动态添加（静态项不可移除） |
-| `IsVisible` | 是否可见（逻辑卸载时隐藏） |
-| `ModuleName` | 关联模块名（卸载时精确匹配） |
-
-### 2.4 样式技巧 — DataTrigger 区分动态项
-
-```xml
-<Style x:Key="NavButton" TargetType="Button">
-    <Setter Property="Foreground" Value="White"/>
-    <Style.Triggers>
-        <!-- 动态导航项用浅蓝色文字区分 -->
-        <DataTrigger Binding="{Binding IsDynamic}" Value="True">
-            <Setter Property="Foreground" Value="#4FC3F7"/>
-        </DataTrigger>
-    </Style.Triggers>
-</Style>
-```
-
-### 2.5 统一导航命令
-
-```csharp
-public DelegateCommand<string> NavigateCommand { get; }
-// 所有导航按钮共用，参数为视图注册名
-NavigateCommand = new DelegateCommand<string>(viewName =>
-    _regionManager.RequestNavigate("ContentRegion", viewName));
-```
-
-### 2.6 知识点总结
-
-- `prism:RegionManager.RegionName` 定义导航区域，是 Prism 视图切换的核心
-- `ItemsControl` + `ObservableCollection` = 数据驱动 UI，集合变化自动刷新
-- 通过 `EventAggregator` 让 Module 页面与 MainWindow 解耦，模块加载/卸载时动态增删导航项
-- `DataTrigger` 可根据 ViewModel 属性动态切换样式
-
----
 
 ## 3. HomeView — 依赖注入 + 事件发布
 
